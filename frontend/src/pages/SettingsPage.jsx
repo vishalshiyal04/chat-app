@@ -3,8 +3,9 @@ import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
 
 const PREVIEW_MESSAGES = [
-  { id: 1, content: "Hey! How's it going?", isSent: false },
-  { id: 2, content: "I'm doing great! Just working on some new features.", isSent: true },
+  { id: 1, content: "Vishal Say: Hey! How's it going?", isSent: false },
+  { id: 2, content: "(Sorry)Message to User : Theme is working in only Light & Dark ", isSent: false },
+  { id: 3, content: "Copyright © 2025 Mxx-Chat. All Rights Reserved. Designed by Vishal.", isSent: true },
 ];
 
 const SettingsPage = () => {
@@ -83,7 +84,7 @@ const SettingsPage = () => {
                             ${message.isSent ? "text-primary-content/70" : "text-base-content/70"}
                           `}
                         >
-                          12:00 PM
+                          12:00 PM (It's not a real time)
                         </p>
                       </div>
                     </div>
@@ -97,7 +98,7 @@ const SettingsPage = () => {
                       type="text"
                       className="input input-bordered flex-1 text-sm h-10"
                       placeholder="Type a message..."
-                      value="This is a preview"
+                      value="Copyright © 2025 Vishal B Shiyal. All Rights Reserved."
                       readOnly
                     />
                     <button className="btn btn-primary h-10 min-h-0">
