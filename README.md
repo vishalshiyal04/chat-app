@@ -51,18 +51,12 @@ Follow these steps to get the project up and running on your local machine.
 
 
 1. Backend Setup
-
   mkdir chat-app
-  
   cd chat-app
-  
   mkdir backend
-  
   cd backend
 
-  
   Install dependencies:
-  
   npm install
   
   .env
@@ -75,23 +69,17 @@ Follow these steps to get the project up and running on your local machine.
   CLOUDINARY_API_SECRET=[Your cloudinary api secret]
   
   Run the backend server:
-  
   npm run dev
 
 2. Frontend Setup
-
-
+   
   cd chat-app
-  
   mkdir frontend
   
   Install dependencies:
-  
   npm install
   
-
   Run the frontend development server:
-  
   npm run dev
 
 
