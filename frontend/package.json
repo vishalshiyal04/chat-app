@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  }, "engines": {
-    "node": "18.x" 
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "20": "^3.1.9",
@@ -30,7 +31,6 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
-    "@rollup/rollup-linux-x64-gnu": "*",
     "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.46",
     "eslint": "^9.30.1",
